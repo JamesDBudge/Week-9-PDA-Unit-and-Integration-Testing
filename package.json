@@ -16,12 +16,14 @@
     "chai-as-promised": "^6.0.0",
     "express": "^4.14.0",
     "mocha": "^5.2.0",
-    "protractor": "^5.4.0",
     "webdriver-manager": "^10.2.7"
   },
   "main": "conf.js",
   "directories": {
     "test": "tests"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "protractor": "^5.4.2"
+  }
 }
